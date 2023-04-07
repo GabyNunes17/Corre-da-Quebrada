@@ -9,95 +9,115 @@ main{
     background-color: #fff;
 }
 
-#fundo1{
-    width: 100vw;
-    height: 750px;
-    background: linear-gradient(90deg, #3C3D68 0%, #08093A 100%);
-}
-
 header{
-    width: 90%;
-    height: 100px;
+    position: absolute;
+    width: 100vw;
+    height: 90px;
+    background: rgba(7, 46, 68, 0.7);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
 #logo{
-    width: 15%;
-    height: 100px;
+    width: 10%;
+    height: 90px;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
 }
 
 header nav{
     width: 75%;
-    height: 28px;
-    padding: 55px 0;
+    height: 20px;
+    padding: 40px 0;
     display: flex;
     justify-content:space-around;
     flex-direction: row;
-    align-items: center;
 }
 
 header nav a{
-    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
     color: #fff;
     text-decoration: none;
 }
 
 header nav a:hover{
-    border-bottom: solid blue;
-    transition: 0.5s;
+    color: skyblue;
 }
 
-#one{
-    width: 50%;
-    height: 550px;
-    margin-top: 3%;
-    margin-left: 5%;
+#homeF{
+    width: 100vw;
+    height: 750px;
+}
+
+#homeF img{
+    width: 100%;
+    height: 100%;
+}
+
+#homeF p{
+    position: absolute;
+    width: 799px;
+    height: 434px;
+    left: 60px;
+    top: 180px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.secao{
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.secao h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #106493;
+}
+
+.secao p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 25px 0;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.secao button{
+    width: 8%;
+    height: 40px;
     background: #106493;
-    border-radius: 55px;
+    box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
 }
 
-#one img{
-    position: absolute;
-    width: 60%;
-    top: -5%;
-    left: 0%;
-    z-index: 2;
-    }
-
-#one p{
-    font-weight: 700;
-    font-size: 130px;
-    line-height: 174px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-
+.secao button a{
     color: #FFFFFF;
-
-    opacity: 0.2;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 
-#two{
-    position: absolute;
-    width: 40%;
-    height: 500px;
-    left: 780px;
-    top: 175px;
-    background: rgba(30, 30, 53, 0.1);
-    backdrop-filter: blur(265.5px);
-    border-radius: 55px;
-    z-index: 1;
-}
-
-#two p{
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 97px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    padding: 7%;
-    color: #FFFFFF;
-    opacity: 0.7;
+.secao button:hover{
+    width: 9%;
+    height: 45px;
+    color: skyblue;
 }
 
