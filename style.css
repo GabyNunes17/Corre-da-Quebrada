@@ -76,48 +76,114 @@ header nav a:hover{
 
 .secao{
     width: 100vw;
-    height: auto;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.secao div{
+    width: 20%;
+    height: 100%;
     text-align: center;
-    padding: 50px 0;
+    float: left;
 }
 
-.secao h1{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
-    font-size: 60px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-    color: #106493;
+.secao div img{
+    width: 200px;
+    height: 200px;
 }
 
-.secao p{
+.secao div p{
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
     font-size: 28px;
-    padding: 25px 0;
-    text-transform: uppercase;
-
     color: #000000;
 }
 
-.secao button{
-    width: 8%;
-    height: 40px;
+.secao div h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 5%;
+    color: #000000;
+}
+
+.secao div button{
+    width: 30%;
+    height: 30px;
     background: #106493;
     box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 }
 
-.secao button a{
-    color: #FFFFFF;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
+.secao div button:hover{
+    width: 33%;
+    height: 35px;
 }
 
-.secao button:hover{
-    width: 9%;
-    height: 45px;
-    color: skyblue;
+.secao div button a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
 }
+
+.secao2{
+    width: 100vw;
+    height: 500px;
+    margin-top: 3%;
+    text-align: center;
+    background: linear-gradient(90deg, #3C3D68 0%, #08093A 100%);
+}
+
+.secao2 div{
+    width: 50%;
+    height: 500px;
+    float: left ;
+}
+
+.secao2 div img{
+    width: 100%;
+    height: 500px;
+}
+
+.secao2 h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #106493;
+    padding: 1%;
+}
+
+.secao2 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding: 4%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.secao2 button{
+    width: 10%;
+    height: 35px;
+    background: #106493;
+    box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.secao2 button a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.secao2 button:hover{
+    width: 11%;
+    height: 40px;
+}
+
+
 
