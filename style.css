@@ -150,11 +150,11 @@ header nav a:hover{
 }
 
 .secao2{
-    width: 98%;
+    width: 99%;
     height: 500px;
     margin-top: 10%;
     text-align: center;
-    border: solid #08093A 10px; 
+    border: solid #08093A 5px; 
 }
 
 .secao2 div{
