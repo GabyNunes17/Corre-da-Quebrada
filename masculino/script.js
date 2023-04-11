@@ -59,7 +59,7 @@ function mostraPuma(){
     nike.style.display = 'none';
     vans.style.display = 'none';
     oakley.style.display = 'none';
-    adidasT.style.display = 'none';
+    adidas.style.display = 'none';
     
     adidasT.style.display = 'none';
     nikeT.style.display = 'none';
